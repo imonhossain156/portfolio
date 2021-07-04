@@ -56,3 +56,18 @@ section{
 body{
     margin-left: 3%;
 }
+.half2{
+    width: 50%s;
+    padding-right: 10%;
+}
+.half2 img{
+ width: 70%;
+}
+.ph2{
+    padding-left: 40%;
+}
+.dream-bg{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
