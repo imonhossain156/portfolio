@@ -1,0 +1,58 @@
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+font-size: 60px;    
+}
+span{
+    color: darkseagreen;
+}
+h3{
+    font-size: 25px;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+}
+
+section{
+    display: flex;
+}
+.half{
+    width: 50%s;
+    padding-left: 10%;
+}
+.half img{
+    width: 70%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(250, 191, 132), tomato );
+    padding: 10px 20px 10px 20px;
+    border: white 1px ;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    
+}
+.link-button:hover{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(136, 228, 240),rgb(12, 60, 218) );
+    padding: 10px 20px 10px 20px;
+    border: white 1px ;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    
+}
+.top{
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}
+
+body{
+    margin-left: 3%;
+}
