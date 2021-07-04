@@ -18,8 +18,9 @@ p{
     font-size: larger;
 }
 
-section{
+.flexible{
     display: flex;
+    margin-top: 150px;
 }
 .half{
     width: 50%s;
@@ -70,4 +71,36 @@ body{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+h4{
+    color: orange;
+}
+#exp1{
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 5px 10px 40px #888888;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    
+}
+#exp2{
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 5px 10px 40px #888888;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(69, 5, 245), rgb(36, 248, 255));
+    border-image-slice: 1;
+    
+}
+.exp{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 250px;
+}
+footer{
+    text-align: center;
+    color: gray;
 }
